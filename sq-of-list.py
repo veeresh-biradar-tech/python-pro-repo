@@ -5,3 +5,7 @@ def find_sq(n):
 square =list(map(find_sq, nums))
 
 print("Square's Are= ", square)
+
+print("Square's Are= ")
+for sq in square:
+    print(sq)
